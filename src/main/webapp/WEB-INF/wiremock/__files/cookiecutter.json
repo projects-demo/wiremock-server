@@ -1,0 +1,27 @@
+{
+	"groupId": "com.example",
+	"artifactId": "demo",
+	"javaVersion": "8",
+
+	"junit": [
+		"yes",
+		"no"
+	],
+	"gcp_code": [
+		"no",
+		"yes"
+	],
+
+	"__package": "{{ cookiecutter.groupId + '.' + cookiecutter.artifactId }}",
+	
+	"module_name": "sync-load",
+	"repositoryName": "repo1",
+	"project_name": "sync-load1",
+	"gcpPckg": "org.example.demo",
+	"days": "Sunday"
+	
+
+
+}
+
+
